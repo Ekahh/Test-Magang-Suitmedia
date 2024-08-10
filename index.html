@@ -3,11 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Magang Suitmedia</title>
+    <title>Suitmedia Ideas</title>
     <link rel="stylesheet" href="css\styles.css" />
   </head>
 
   <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="https://suitmedia.com"
+            ><img src="images\logo-suitmedia.png" alt="Logo Suitmedia"
+          /></a>
+        </div>
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#ideas">Ideas</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner-card">
+      <div class="parallax-bg">
+        <img src="images/banner-thumbnail.jpg" alt="banner thumbnail" />
+      </div>
+      <div class="banner-text">
+        <h1>Ideas</h1>
+        <p>Where all our great things begin</p>
+      </div>
+    </div>
+
+    <div class="content" role="main">
+      <div class="content-header">
+        <div class="showing-info">Showing 1 - 10 of 100</div>
+        <div class="content-controls">
+          <label for="per-page">Show per page:</label>
+          <select id="per-page">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+
+          <label for="sort">Sort by:</label>
+          <select id="sort">
+            <option value="-published_at">Newest</option>
+            <option value="published_at">Oldest</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="posts-container" class="grid">
+        <div class="card">
+          <img src="images\influencer.png" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images\influencer-merekam.jpg" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>
+              Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi
+              Influencer
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\influencer.png" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images\influencer-merekam.jpg" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>
+              Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi
+              Influencer
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\influencer.png" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images\influencer-merekam.jpg" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>
+              Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi
+              Influencer
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\influencer.png" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images\influencer-merekam.jpg" alt="Article image" />
+          <div class="card-content">
+            <p>5 September 2022</p>
+            <h3>
+              Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi
+              Influencer
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination" id="pagination">
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">></a>
+      </div>
+    </div>
+
     <script src="js\script.js"></script>
   </body>
 </html>
