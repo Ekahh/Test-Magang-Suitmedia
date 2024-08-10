@@ -82,7 +82,7 @@ nav ul li a.active {
   object-fit: cover;
 }
 
-.parallax-bg {
+.banner-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -91,7 +91,7 @@ nav ul li a.active {
   will-change: transform;
 }
 
-.parallax-bg img {
+.banner-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -121,12 +121,12 @@ nav ul li a.active {
   margin-bottom: 20px;
 }
 
-.showing-info {
+.info {
   font-size: 14px;
   color: #666;
 }
 
-.content-controls {
+.content-control {
   display: flex;
   align-items: center;
 }
